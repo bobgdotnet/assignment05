@@ -19,7 +19,6 @@ You will be responsible for figuring out some of the logic. These next steps wil
  // user prompt
  
  playerChoice = prompt("Rock, Paper, Scissors, Lizard or Spock?").toLowerCase()
- console.log(playerChoice)
  
  // check for valid entry
 function playGame(playerChoice) {
@@ -30,8 +29,6 @@ function playGame(playerChoice) {
     }
 
     const computerChoice = computersChoice();
-    console.log("You chose: ${playerChoice}");
-    console.log("Computer chose: ${computerChoice}");
     console.log(determineWinner(playerChoice, computerChoice));
 }
 
